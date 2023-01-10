@@ -8,7 +8,7 @@
     /*primary colors*/
 
     --blue: hsl(246, 80%, 60%);
-    --light-red: hsl(15, 100%, 70%);
+    --light-orange: hsl(15, 100%, 70%);
     --soft-blue: hsl(195, 74%, 62%);
     --light-red:  hsl(348, 100%, 68%);
     --lime-green:  hsl(145, 58%, 55%);
@@ -32,6 +32,90 @@ body {
     min-height: 100vh;
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
+    background-color: var(--very-dark-blue);
+    color: var(--pale-blue);
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/*top card*/
+
+.personal-card {
+    margin: 70px 0px 20px 0px;
+}
+
+.jeremy-avatar {
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.pic-and-name {
+    background-color: var(--blue);
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+    height: 130px;
+}
+
+.personal-bottom {
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.daily, .weekly, .monthly {
+    margin-top: 12px;
+}
+
+/*rest of cards*/
+
+.info-card {
+    width: 320px;
+    height: 110px;
+    margin-bottom: 20px;
+    background-color: var(--dark-blue);
+    border-radius: 10px;
+}
+
+.border-picture {
+    width: 20px;
+}
+
+.work-border {
+    background-color: var(--light-orange);
+}
+
+.play-border {
+    background-color: var(--soft-blue);
+}
+
+.study-border {
+    background-color: var(--light-red);
+}
+
+.exercise-border {
+    background-color: var(--lime-green);
+}
+
+.social-border {
+    background-color: var(--violet);
+}
+
+.selfcare-border {
+    background-color: var(--soft-orange);
 }
 
 .attribution {
