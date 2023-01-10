@@ -44,7 +44,7 @@ h1 {
 /*top card*/
 
 .personal-card {
-    margin: 70px 0px 20px 0px;
+    margin: 70px 0px 50px 0px;
 }
 
 .jeremy-avatar {
@@ -90,8 +90,32 @@ h1 {
     border-radius: 10px;
 }
 
+.title-and-circles {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.active-circles {
+    width: 21px;
+    height: 5px;
+}
+
 .border-picture {
-    width: 20px;
+    width: 50px;
+}
+
+.work-border, .play-border, .exercise-border, .social-border, .selfcare-border, .study-border {
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: 44px;
+    left: 0;
+    z-index: -1;
+}
+
+.run {
+    width: ;
 }
 
 .work-border {
