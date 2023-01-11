@@ -87,6 +87,11 @@ h1 {
     height: 110px;
     background-color: var(--dark-blue);
     border-radius: 10px;
+    margin-top: -20px;
+}
+
+.title {
+    color: white;
 }
 
 .title-and-circles {
@@ -94,7 +99,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 20px 20px 5px 20px;
+    padding: 25px 20px 5px 20px;
 }
 
 .active-circles {
@@ -105,11 +110,14 @@ h1 {
 .weekly-info, .daily-info, .monthly-info {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0px 20px;
 }
 
 .daily-time, .weekly-time, .monthly-time {
     font-size: 30px;
+    font-weight: 300;
+    color: white;
 }
 
 .daily-time, .previous-daily, .monthly-time,.previous-monthly {
@@ -117,17 +125,36 @@ h1 {
 }
 
 .border-picture {
-    width: 50px;
+    position: relative;
+    top: -8px;
+    margin-left: 227px;
+}
+
+.run {
+    position: relative;
+    top: -2px;
+}
+
+.bubbles {
+    position: relative;
+    top: -15px;
+}
+
+.heart {
+    position: relative;
+    top: -12px;
+    margin-left: 235px;
 }
 
 .work-border, .play-border, .exercise-border, .social-border, .selfcare-border, .study-border {
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 12px 12px 0px 0px;
     position: relative;
-    top: 44px;
+    top: 25px;
     left: 0;
     z-index: -1;
-    height: 55px;
+    height: 60px;
     width: 320px;
+    overflow: hidden;
 }
 
 .work-border {
