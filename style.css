@@ -182,11 +182,18 @@ h1 {
 }
 
 .attribution {
-	font-size: 11px;
-	text-align: center;
+    margin: 40px;
+	text-align: center; 
+    font-size: 14px;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+.fa-brands {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: var(--violet);
 }
 
 footer {
