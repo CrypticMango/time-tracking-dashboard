@@ -44,7 +44,7 @@ h1 {
 /*top card*/
 
 .personal-card {
-    margin: 70px 0px 50px 0px;
+    margin: 70px 0px 0px 0px;
 }
 
 .jeremy-avatar {
@@ -85,7 +85,6 @@ h1 {
 .info-card {
     width: 320px;
     height: 110px;
-    margin-bottom: 20px;
     background-color: var(--dark-blue);
     border-radius: 10px;
 }
@@ -94,12 +93,27 @@ h1 {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 20px;
+    align-items: baseline;
+    padding: 20px 20px 5px 20px;
 }
 
 .active-circles {
     width: 21px;
     height: 5px;
+}
+
+.weekly-info, .daily-info, .monthly-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.daily-time, .weekly-time, .monthly-time {
+    font-size: 30px;
+}
+
+.daily-time, .previous-daily, .monthly-time,.previous-monthly {
+    display: none;
 }
 
 .border-picture {
@@ -112,10 +126,8 @@ h1 {
     top: 44px;
     left: 0;
     z-index: -1;
-}
-
-.run {
-    width: ;
+    height: 55px;
+    width: 320px;
 }
 
 .work-border {
