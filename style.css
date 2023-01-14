@@ -210,4 +210,24 @@ footer {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .personal-card {
+        grid-column: 1;
+        grid-row: span 2;
+        width: 220px;
+        margin-top: 0;
+    }
+
+    .pic-and-name {
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personal-bottom {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
 }
