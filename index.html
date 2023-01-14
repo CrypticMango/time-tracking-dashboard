@@ -1,207 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
 
-  <script src="https://kit.fontawesome.com/b5252524d8.js" crossorigin="anonymous"></script>
+		<script
+			src="https://kit.fontawesome.com/b5252524d8.js"
+			crossorigin="anonymous"
+		></script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
 
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Time tracking dashboard</title>
+		<link rel="stylesheet" href="style.css" />
 
- 
-</head>
-<body>
+		<title>Frontend Mentor | Time tracking dashboard</title>
+	</head>
+	<body>
+		<main>
+			<div class="full-app">
+				<div class="personal-card">
+					<div class="pic-and-name">
+						<img
+							src="/images/image-jeremy.png"
+							alt="jeremy"
+							aria-label="jeremy-avatar"
+							class="jeremy-avatar"
+						/>
+						<div>
+							<p class="report">Report for</p>
+							<h1>Jeremy Robson</h1>
+						</div>
+					</div>
+					<div class="personal-bottom">
+						<p class="daily">Daily</p>
+						<p class="weekly">Weekly</p>
+						<p class="monthly">Monthly</p>
+					</div>
+				</div>
 
-  <main>
-    <div class="full-app">
-      <div class="personal-card">
-        <div class="pic-and-name">
-          <img src="/images/image-jeremy.png" alt="jeremy" aria-label="jeremy-avatar" class="jeremy-avatar">
-          <div>
-            <p class="report">Report for</p>
-            <h1>Jeremy Robson</h1>
+				<div class="pos-1">
+					<div class="work-border">
+						<img
+							src="/images/icon-work.svg"
+							alt="suitcase"
+							aria-label="red-suitcase"
+							class="border-picture"
+						/>
+					</div>
+
+					<div class="info-card">
+						<div class="title-and-circles">
+							<p class="title">Work</p>
+							<img
+								src="/images/icon-ellipsis.svg"
+								alt="circles"
+								aria-label="three-circles"
+								class="active-circles"
+							/>
+						</div>
+
+						<div class="daily-info">
+							<p class="daily-time">5hrs</p>
+							<!-- daily -->
+							<p class="previous-daily">
+								Previous - 7hrs
+							</p>
+							<!-- daily -->
+						</div>
+
+						<div class="weekly-info">
+							<p class="weekly-time">32hrs</p>
+							<!-- weekly -->
+							<p class="previous-weekly">
+								Previous - 36hrs
+							</p>
+							<!-- weekly -->
+						</div>
+
+						<div class="monthly-info">
+							<p class="monthly-time">103hrs</p>
+							<!-- monthly -->
+							<p class="previous-monthly">
+								Previous - 128hrs
+							</p>
+							<!-- monthly -->
+						</div>
+					</div>
+				</div>
+
+				<div class="pos-2">
+					<div class="play-border">
+						<img
+							src="/images/icon-play.svg"
+							alt="controller"
+							aria-label="game-controller"
+							class="border-picture"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="title-and-circles">
+							<p class="title">Play</p>
+							<img
+								src="/images/icon-ellipsis.svg"
+								alt="circles"
+								aria-label="three-circles"
+								class="active-circles"
+							/>
+						</div>
+						<div class="daily-info">
+							<p class="daily-time">1hr</p>
+							<!-- daily -->
+							<p class="previous-daily">
+								Previous - 2hrs
+								<!-- daily -->
+							</p>
+						</div>
+						<div class="weekly-info">
+							<p class="weekly-time">10hrs</p>
+							<!-- weekly -->
+							<p class="previous-weekly">
+								Previous - 8hrs
+							</p>
+							<!-- weekly -->
+						</div>
+						<div class="monthly-info">
+							<p class="monthly-time">23hrs</p>
+							<!-- monthly -->
+							<p class="previous-monthly">
+								Previous - 29hrs
+							</p>
+							<!-- monthly -->
+						</div>
+					</div>
+				</div>
+
+				<div class="pos-3">
+          <div class="study-border">
+            <img
+              src="/images/icon-study.svg"
+              alt="book"
+              aria-label="open-book"
+              class="border-picture"
+            />
+          </div>
+          <div class="info-card">
+            <div class="title-and-circles">
+              <p class="title">Study</p>
+              <img
+                src="/images/icon-ellipsis.svg"
+                alt="circles"
+                aria-label="three-circles"
+                class="active-circles"
+              />
+            </div>
+            <div class="daily-info">
+              <p class="daily-time">0hrs</p>
+              <!-- daily -->
+              <p class="previous-daily">Previous - 1hr</p>
+              <!-- daily -->
+            </div>
+            <div class="weekly-info">
+              <p class="weekly-time">4hrs</p>
+              <!-- weekly -->
+              <p class="previous-weekly">
+                Previous - 7hrs
+              </p>
+              <!-- weekly -->
+            </div>
+            <div class="monthly-info">
+              <p class="monthly-time">13hrs</p>
+              <!-- monthly -->
+              <p class="previous-monthly">
+                Previous - 19hrs
+              </p>
+              <!-- monthly -->
+            </div>
           </div>
         </div>
-        <div class="personal-bottom">
-          <p class="daily">Daily</p>
-          <p class="weekly">Weekly</p>
-          <p class="monthly">Monthly</p>
-        </div>
-      </div>
-      <div class="info-card-container">
 
-        <div class="work-border"><img src="/images/icon-work.svg" alt="suitcase" aria-label="red-suitcase" class="border-picture"></div>
+				<div class="exercise-border">
+					<img
+						src="/images/icon-exercise.svg"
+						alt="run"
+						aria-label="running-man"
+						class="border-picture run"
+					/>
+				</div>
 
-        <div class="info-card">
-          <div class="title-and-circles">
-            <p class="title">Work</p>
-            <img src="/images/icon-ellipsis.svg" alt="circles" aria-label="three-circles" class="active-circles">
-          </div>
+				<div class="info-card">
+					<div class="title-and-circles">
+						<p class="title">Exercise</p>
+						<img
+							src="/images/icon-ellipsis.svg"
+							alt="circles"
+							aria-label="three-circles"
+							class="active-circles run"
+						/>
+					</div>
 
-          <div class="daily-info">
-            <p class="daily-time">5hrs</p>  <!-- daily -->
-            <p class="previous-daily">Previous - 7hrs</p> <!-- daily -->
-          </div>
+					<div class="daily-info">
+						<p class="daily-time">1hr</p>
+						<!-- daily -->
+						<p class="previous-daily">Previous - 1hr</p>
+						<!-- daily -->
+					</div>
 
-          <div class="weekly-info">
-            <p class="weekly-time">32hrs</p>  <!-- weekly -->
-            <p class="previous-weekly">Previous - 36hrs</p> <!-- weekly -->
-          </div>
+					<div class="weekly-info">
+						<p class="weekly-time">4hrs</p>
+						<!-- weekly -->
+						<p class="previous-weekly">
+							Previous - 5hrs
+						</p>
+						<!-- weekly -->
+					</div>
 
-          <div class="monthly-info">
-            <p class="monthly-time">103hrs</p> <!-- monthly -->
-            <p class="previous-monthly">Previous - 128hrs</p> <!-- monthly -->
-          </div>
-        </div>
+					<div class="monthl-info">
+						<p class="monthly-time">11hrs</p>
+						<!-- monthly -->
+						<p class="previous-monthly">
+							Previous - 18hrs
+						</p>
+						<!-- monthly -->
+					</div>
+				</div>
 
-        <div class="play-border"><img src="/images/icon-play.svg" alt="controller" aria-label="game-controller" class="border-picture"></div>
+				<div class="social-border">
+					<img
+						src="/images/icon-social.svg"
+						alt="speech-bubbles"
+						aria-label="two-speech-bubbles"
+						class="border-picture bubbles"
+					/>
+				</div>
 
-        <div class="info-card">
+				<div class="info-card">
+					<div class="title-and-circles">
+						<p class="title">Social</p>
+						<img
+							src="/images/icon-ellipsis.svg"
+							alt="circles"
+							aria-label="three-circles"
+							class="active-circles"
+						/>
+					</div>
 
-          <div class="title-and-circles">
-            <p class="title">Play</p>
-            <img src="/images/icon-ellipsis.svg" alt="circles" aria-label="three-circles" class="active-circles">
-          </div>
+					<div class="daily-info">
+						<p class="daily-time">1hr</p>
+						<!-- daily -->
+						<p class="previous-daily">
+							Previous - 3hrs
+						</p>
+						<!-- daily -->
+					</div>
 
-          <div class="daily-info">
-            <p class="daily-time">1hr</p> <!-- daily -->
-            <p class="previous-daily">Previous - 2hrs <!-- daily --></p>
-          </div>
+					<div class="weekly-info">
+						<p class="weekly-time">5hrs</p>
+						<!-- weekly -->
+						<p class="previous-weekly">
+							Previous - 10hrs
+						</p>
+						<!-- weekly -->
+					</div>
 
-          <div class="weekly-info">
-            <p class="weekly-time">10hrs </p><!-- weekly -->
-            <p class="previous-weekly">Previous - 8hrs</p> <!-- weekly -->
-          </div>
+					<div class="monthly-info">
+						<p class="monthly-time">21hrs</p>
+						<!-- monthly -->
+						<p class="previous-monthly">
+							Previous - 23hrs
+						</p>
+						<!-- monthly -->
+					</div>
+				</div>
 
-          <div class="monthly-info">
-            <p class="monthly-time">23hrs</p> <!-- monthly -->
-            <p class="previous-monthly">Previous - 29hrs</p> <!-- monthly -->
-          </div>
+				<div class="selfcare-border">
+					<img
+						src="/images/icon-self-care.svg"
+						alt="heart"
+						aria-label="one-heart"
+						class="border-picture heart"
+					/>
+				</div>
 
-        </div>
+				<div class="info-card">
+					<div class="title-and-circles">
+						<p class="title">Self Care</p>
+						<img
+							src="/images/icon-ellipsis.svg"
+							alt="circles"
+							aria-label="three-circles"
+							class="active-circles"
+						/>
+					</div>
 
-        <div class="study-border"><img src="/images/icon-study.svg" alt="book" aria-label="open-book" class="border-picture"></div>
+					<div class="daily-info">
+						<p class="daily-time">0hrs</p>
+						<!-- daily -->
+						<p class="previous-daily">Previous - 1hr</p>
+						<!-- daily -->
+					</div>
 
-        <div class="info-card">
-      
-          <div class="title-and-circles">
-            <p class="title">Study</p>
-            <img src="/images/icon-ellipsis.svg" alt="circles" aria-label="three-circles" class="active-circles">
-          </div>
+					<div class="weekly-info">
+						<p class="weekly-time">2hrs</p>
+						<!-- weekly -->
+						<p class="previous-weekly">
+							Previous - 2hrs
+						</p>
+						<!-- weekly -->
+					</div>
 
-          <div class="daily-info">
-            <p class="daily-time">0hrs</p> <!-- daily -->
-            <p class="previous-daily">Previous - 1hr</p> <!-- daily -->
-          </div>
+					<div class="monthly-info">
+						<p class="daily-time">7hrs</p>
+						<!-- monthly -->
+						<p class="previous-monthly">
+							Previous - 11hrs
+						</p>
+						<!-- monthly -->
+					</div>
+				</div>
+			</div>
+		</main>
 
-          <div class="weekly-info">
-            <p class="weekly-time">4hrs </p><!-- weekly -->
-            <p class="previous-weekly">Previous - 7hrs </p><!-- weekly -->
-          </div>
+		<footer>
+			<div class="attribution">
+				Challenge by
+				<a
+					href="https://www.frontendmentor.io?ref=challenge"
+					target="_blank"
+					>Frontend Mentor</a
+				>
+				Coded by
+				<a
+					href="https://github.com/CrypticMango"
+					target="_blank"
+					>Lisa</a
+				>
+			</div>
 
-          <div class="monthly-info">
-            <p class="monthly-time">13hrs</p> <!-- monthly -->
-            <p class="previous-monthly">Previous - 19hrs</p> <!-- monthly -->
-          </div>
-
-        </div>
-
-        <div class="exercise-border"><img src="/images/icon-exercise.svg" alt="run" aria-label="running-man" class="border-picture run"></div>
-
-        <div class="info-card">
-
-          <div class="title-and-circles">
-            <p class="title">Exercise</p>
-            <img src="/images/icon-ellipsis.svg" alt="circles" aria-label="three-circles" class="active-circles run">
-          </div>
-
-          <div class="daily-info">
-            <p class="daily-time">1hr</p> <!-- daily -->
-            <p class="previous-daily">Previous - 1hr</p> <!-- daily -->
-          </div>
-
-          <div class="weekly-info">
-            <p class="weekly-time">4hrs</p> <!-- weekly -->
-            <p class="previous-weekly">Previous - 5hrs</p> <!-- weekly -->
-          </div>
-
-          <div class="monthl-info">
-            <p class="monthly-time">11hrs </p><!-- monthly -->
-            <p class="previous-monthly">Previous - 18hrs</p> <!-- monthly -->
-          </div>
-
-        </div>
-
-        <div class="social-border"><img src="/images/icon-social.svg" alt="speech-bubbles" aria-label="two-speech-bubbles" class="border-picture bubbles"></div>
-
-        <div class="info-card">
-
-          <div class="title-and-circles">
-            <p class="title">Social</p>
-            <img src="/images/icon-ellipsis.svg" alt="circles" aria-label="three-circles" class="active-circles">
-          </div>
-
-          <div class="daily-info">
-            <p class="daily-time">1hr</p> <!-- daily -->
-            <p class="previous-daily">Previous - 3hrs</p> <!-- daily -->
-          </div>
-
-          <div class="weekly-info">
-            <p class="weekly-time">5hrs </p><!-- weekly -->
-            <p class="previous-weekly">Previous - 10hrs</p> <!-- weekly -->
-          </div>
-
-          <div class="monthly-info">
-            <p class="monthly-time">21hrs</p> <!-- monthly -->
-            <p class="previous-monthly">Previous - 23hrs</p> <!-- monthly -->
-          </div>
-
-        </div>
-
-        <div class="selfcare-border"><img src="/images/icon-self-care.svg" alt="heart" aria-label="one-heart" class="border-picture heart"></div>
-
-        <div class="info-card">
-
-          <div class="title-and-circles">
-            <p class="title">Self Care</p>
-            <img src="/images/icon-ellipsis.svg" alt="circles" aria-label="three-circles" class="active-circles">
-          </div>
-
-          <div class="daily-info">
-            <p class="daily-time">0hrs</p> <!-- daily -->
-            <p class="previous-daily">Previous - 1hr</p> <!-- daily -->
-          </div>
-
-          <div class="weekly-info">
-            <p class="weekly-time">2hrs</p> <!-- weekly -->
-            <p class="previous-weekly">Previous - 2hrs</p> <!-- weekly -->
-          </div>
-
-          <div class="monthly-info">
-            <p class="daily-time">7hrs</p> <!-- monthly -->
-            <p class="previous-monthly">Previous - 11hrs</p> <!-- monthly -->
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </main>
-
-  
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-      Coded by <a href="https://github.com/CrypticMango" target="_blank">Lisa</a>
-    </div>
-
-    <a href="https://github.com/CrypticMango" target="_blank" aria-label="github"><i class="fa-brands fa-github"></i></a>
-  </footer>
-  <script src="app.js"></script>
-</body>
+			<a
+				href="https://github.com/CrypticMango"
+				target="_blank"
+				aria-label="github"
+				><i class="fa-brands fa-github"></i
+			></a>
+		</footer>
+		<script src="app.js"></script>
+	</body>
 </html>
