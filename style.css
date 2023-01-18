@@ -76,6 +76,10 @@ h1 {
     border-radius: 0px 0px 10px 10px;
 }
 
+.personal-bottom p {
+   color: hsl(235, 45%, 61%);
+}
+
 .daily, .weekly, .monthly {
     margin-top: 12px;
 }
@@ -257,17 +261,42 @@ footer {
         justify-content: center;
     }
 
+    .personal-bottom p:hover {
+        cursor: pointer;
+        color: white;
+    }
+
     .info-card {
         width: 250px;
         height: 175px;
+    }
+
+    .info-card:hover {
+        cursor: pointer;
+        background-color: hsl(237, 41%, 36%);
     }
 
     .top-border {
         width: 250px;
     }
 
+    .work-border, .play-border, .study-border, .exercise-border, .social-border, .selfcare-border {
+        position: relative;
+        top: 21px;
+    }
+
+    .border-picture {
+        position: relative; 
+        right: 70px;
+        top: -3px;
+    }
+
     .title-and-circles {
         margin: 20px 10px;
+    }
+
+    .active-circles:hover {
+        cursor: pointer;
     }
 
     .weekly-info, .monthly-info, .daily-info {
@@ -279,6 +308,11 @@ footer {
 
     .daily-time, .monthly-time, .weekly-time {
         font-size: 45px;
+    }
+
+    .previous-daily, .previous-weekly, .previous-monthly {
+        font-size: 14px;
+        margin-top: 8px;
     }
 
 }
