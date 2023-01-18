@@ -209,6 +209,8 @@ footer {
     .full-app {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0px 30px;
+        margin: 30px 90px;
     }
 
     .personal-card {
@@ -216,6 +218,7 @@ footer {
         grid-row: span 2;
         width: 220px;
         margin-top: 0;
+        justify-self: flex-end;
     }
 
     .pic-and-name {
@@ -250,5 +253,32 @@ footer {
         display: flex;
         flex-direction: column;
         text-align: left;
+        align-items: start;
+        justify-content: center;
     }
+
+    .info-card {
+        width: 250px;
+        height: 175px;
+    }
+
+    .top-border {
+        width: 250px;
+    }
+
+    .title-and-circles {
+        margin: 20px 10px;
+    }
+
+    .weekly-info, .monthly-info, .daily-info {
+        flex-direction: column;
+        align-items: start;
+        margin-top: 10px;
+        margin: 0px 10px;
+    }
+
+    .daily-time, .monthly-time, .weekly-time {
+        font-size: 45px;
+    }
+
 }
