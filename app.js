@@ -1,3 +1,9 @@
+"use strict";
+
+import time from './data.json' assert { type: 'json'};
+
+console.log(time);
+
 const dailyButton = document.getElementById("daily");
 const weeklyButton = document.getElementById("weekly");
 const monthlyButton = document.getElementById("monthly");
