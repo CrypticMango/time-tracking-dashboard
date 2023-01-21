@@ -128,6 +128,10 @@ h1 {
     display: none;
 }
 
+.previous-daily, .previous-weekly, .previous-monthly {
+    font-size: 15px;
+}
+
 .border-picture {
     position: relative;
     top: -8px;
